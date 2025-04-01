@@ -1,13 +1,13 @@
 <?php
 
-namespace Joshembling\ImageOptimizer;
+namespace Alqabali\ImageOptimizer;
 
 use Filament\Forms\Components\BaseFileUpload;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Foundation\AliasLoader;
-use Joshembling\ImageOptimizer\Components\BaseFileUpload as CustomBaseFileUpload;
-use Joshembling\ImageOptimizer\Components\SpatieMediaLibraryFileUpload as CustomSpatieMediaLibraryFileUpload;
+use Alqabali\ImageOptimizer\Components\BaseFileUpload as CustomBaseFileUpload;
+use Alqabali\ImageOptimizer\Components\SpatieMediaLibraryFileUpload as CustomSpatieMediaLibraryFileUpload;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
@@ -30,7 +30,7 @@ class ImageOptimizerServiceProvider extends PackageServiceProvider
                     ->publishConfigFile()
                     ->publishMigrations()
                     ->askToRunMigrations()
-                    ->askToStarRepoOnGitHub('joshembling/image-optimizer');
+                    ->askToStarRepoOnGitHub('alqabali/image-optimizer');
             });
 
         $configFileName = $package->shortName();

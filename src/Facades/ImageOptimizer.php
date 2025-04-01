@@ -1,11 +1,11 @@
 <?php
 
-namespace Joshembling\ImageOptimizer\Facades;
+namespace Alqabali\ImageOptimizer\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Joshembling\ImageOptimizer\ImageOptimizer
+ * @see \Alqabali\ImageOptimizer\ImageOptimizer
  */
 class ImageOptimizer extends Facade
 {

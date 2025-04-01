@@ -1,6 +1,6 @@
 <?php
 
-// translations for Joshembling/ImageOptimizer
+// translations for Alqabali/ImageOptimizer
 return [
     //
 ];

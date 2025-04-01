@@ -1,6 +1,6 @@
 <?php
 
-namespace Joshembling\ImageOptimizer\Components;
+namespace Alqabali\ImageOptimizer\Components;
 
 use Closure;
 use Filament\Forms\Components\Concerns;
